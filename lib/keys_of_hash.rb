@@ -5,7 +5,7 @@ class Hash
 
     self.each do |key, value|
       if arguments.include?(value)
-        keys << key
+        keys.push(key)
       end
     end
 
